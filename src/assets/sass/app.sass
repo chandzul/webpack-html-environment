@@ -1,6 +1,6 @@
 
 // 1. Import the initial variables
-@import "../node_modules/bulma/sass/utilities/initial-variables"
+@import "../../../node_modules/bulma/sass/utilities/initial-variables"
 
 // 2. Set your own initial variables
 // Update blue
@@ -23,6 +23,15 @@ $family-primary: $family-serif
 // 4. Import the rest of Bulma
 // @import "../bulma"
 
-@import "../node_modules/bulma/bulma.sass"
-@import "./box-hotel.sass"
+// personal styles to test functionality
+.bg
+  background-color: orange
+  color: #ffffff
+  padding: 1rem 1rem
+  margin: 1rem auto
+  border-radius: 3px
+
+
+@import "../../../node_modules/bulma/bulma.sass"
+@import "./extensions/_all.sass"
 

@@ -17,3 +17,46 @@ html(lang='en')
           strong Bulma 😸
           | !
         p.bg Content goes here. 
+
+        .columns
+          .column
+            .panel
+              .panel-heading
+                | Check Radios
+              .panel-block
+                .field
+                  input#exampleCheckbox.is-checkbox(type='checkbox', name='exampleCheckbox', checked='checked')
+                  label(for='exampleCheckbox') Check me
+                .field
+                  input#exampleRadioInline1.is-radio(type='radio', name='exampleRadioInline', checked='checked')
+                  label(for='exampleRadioInline1') Option 1
+                  input#exampleRadioInline2.is-radio(type='radio', name='exampleRadioInline')
+                  label(for='exampleRadioInline2') Option 2
+
+          .column
+            .panel
+              .panel-heading
+                | Notifications
+              .panel-block
+                .columns
+                  .column
+                    span.badge(data-badge='8')
+                      | Notifications
+                  .column
+                    span.badge.is-badge-success(data-badge='88')
+                      | Notifications
+                  .column
+                    span.badge.is-badge-danger(data-badge='888')
+                      | Notifications
+
+        .columns
+          .column
+            .panel
+              .panel-heading
+                | Switch
+              .panel-block
+                .field
+                  input#switchExample.switch(type='checkbox', name='switchExample', checked='checked')
+                  label(for='switchExample') Switch example
+          .column
+            | text here
