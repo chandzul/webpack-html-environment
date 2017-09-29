@@ -2,5 +2,7 @@
 
 // const css = require('../node_modules/bulma/bulma.sass');
 const css = require('./app.sass');
+const js = require('./bulma.slide.js');
+
 
 console.log("Hello from Webpack dev server2");

@@ -1,0 +1,59 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    title Index Demo tutorial
+  body
+    
+    include includes/header.pug
+    
+    
+    section.hero.is-info.is-large
+      // Hero header: will stick at the top
+      .hero-head
+      // Hero content: will be in the middle
+      .hero-body
+        .container.has-text-centered
+          h1.title Title
+          h2.subtitle Subtitle
+      // Hero footer: will stick at the bottom
+      .hero-foot
+        nav.tabs.is-boxed.is-fullwidth
+          .container
+            ul
+              li.is-active
+                a Overview
+              li
+                a Modifiers
+              li
+                a Grid
+              li
+                a Elements
+              li
+                a Components
+              li
+                a Layout
+    section.section
+      .container
+        h1.title Hello World test
+        p.subtitle
+          | My first website with 
+          strong Bulma 😸
+          | !
+        p.bg Content goes here. 
+        .notification.is-primary
+          button.delete
+          |                 Primar lorem ipsum dolor sit amet, consectetur
+          |                           adipiscing elit lorem ipsum dolor. 
+          strong Pellentesque risus mi
+          | , tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum 
+          a felis venenatis
+          |  efficitur. Sit amet,
+          |                           consectetur adipiscing elit
+        .columns
+          .column First column
+          .column Second column
+          .column Third column
+          .column Fourth column
