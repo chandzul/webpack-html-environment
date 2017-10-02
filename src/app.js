@@ -1,8 +1,8 @@
-// const css = require('./app.scss');
+const sass = require('./assets/sass/app.sass');
+const navvar = require('./assets/js/bulma.navvar.js');
+const jquery = require("jquery");
+const flickity = require('../node_modules/flickity/dist/flickity.pkgd.js');
+const main = require('./assets/js/main.js');
 
-// const css = require('../node_modules/bulma/bulma.sass');
-const css = require('./assets/sass/app.sass');
-const js = require('./bulma.slide.js');
 
-
-console.log("Hello from Webpack dev server2");
+console.log("Index Page");
