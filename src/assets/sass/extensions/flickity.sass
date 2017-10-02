@@ -111,34 +111,3 @@
   cursor: pointer
   &.is-selected
     opacity: 1
-
-
-/*css to change style*/
-.carousel
-  background: transparent
-
-  /*Cargar images sueltas*/
-  img
-    display: block
-    height: 200px
-  
-  /*Carga imagenes dentro un contenedor*/
-  .carousel-cell
-    width: 66%
-    height: 450px
-    margin-right: 10px
-    background: #8C8
-    border-radius: 0px
-    counter-increment: gallery-cell
-    &:before
-      display: block
-      text-align: center
-      content: counter(gallery-cell)
-      line-height: 200px
-      font-size: 80px
-      color: white
-  
-@media screen and (min-width: 768px)
-  .carousel img
-    height: 400px
-
